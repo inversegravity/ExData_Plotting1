@@ -1,6 +1,7 @@
 # Read only the required lines from the source file, being:
 #   the header (the first line in the file)
 #   lines with Date == '1/2/2007' or '2/2/2007'
+# NOTE:  household_power_consumption.txt, must be in the working directory.
 # Here I have used the pipe function to "pre-process" the file in the Linux 
 # shell which has HUGE advantages in speed & memory over other methods. We were
 # not asked to provide an Operating System agnostic solution so please don't
